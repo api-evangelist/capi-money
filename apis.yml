@@ -1,8 +1,16 @@
 aid: capi-money
 name: Capi Money
-description: 'Capi Money is a company surfaced as a portfolio company of creandum and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Capi Money is a cross-border payments fintech that lets businesses pay
+  their suppliers in more than 30 currencies, targeting importers in Africa and other
+  emerging markets who have historically faced high fees and multi-week settlement
+  times on international invoices. Founded in 2023 by Mitch Riley and Scott Liddle
+  and headquartered in Wilmington, Delaware, the company offers instant FX rate quotes,
+  settlement within 24 hours, real-time payment tracking, and holds customer funds
+  with licensed financial institutions. Capi is a Y Combinator company backed by
+  Creandum, Firstminute Capital, and Raba, having raised roughly EUR 17.2 million
+  in Series A funding. The product is delivered through a web application (app.capimoney.com)
+  and an FX Partner Program; there is no public developer API, OpenAPI definition,
+  or developer portal published at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/capi-money/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,30 @@ x-backed-by:
 - creandum
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/y6kgvqnx/production/06bbda02dacbc705e032a3cc5b100e7855872d4e-700x301.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Payments
+- Cross-Border Payments
+- Foreign Exchange
+- International Payments
+- Emerging Markets
+- Africa
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,20 @@ maintainers:
 common:
 - type: Website
   url: https://capimoney.com/
+- type: SignUp
+  url: https://app.capimoney.com/sign-up?locale=en
+- type: Login
+  url: https://app.capimoney.com/sign-in
+- type: Support
+  url: https://capi-money.zendesk.com
+- type: TermsOfService
+  url: https://capimoney.com/terms
+- type: PrivacyPolicy
+  url: https://capimoney.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/CapiMoney
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
