@@ -43,7 +43,7 @@ accessModel:
 image: https://cdn.sanity.io/images/y6kgvqnx/production/06bbda02dacbc705e032a3cc5b100e7855872d4e-700x301.png
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Fintech
@@ -60,6 +60,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://capimoney.com/blog
+  type: Blog
 - type: Website
   url: https://capimoney.com/
 - type: SignUp
